@@ -7,8 +7,8 @@ package Lab01;
 		public static void main(String[] args) {
 			Scanner scan = new Scanner(System.in);
 			int cmd, a;
-			int[] jagsaalt = new int[10];
-			LinearList array = new LinearList();
+			Integer[] jagsaalt = new Integer[10];
+			LinearList<Integer> array = new LinearList<Integer>();
 			array.add(jagsaalt, 1);
 			array.add(jagsaalt, 5);
 			array.add(jagsaalt, 6);
@@ -63,7 +63,7 @@ package Lab01;
 			    		   break;
 			    	   
 			    		default:
-			    		   System.out.println("1-7 r commanduudaas songono uu!");
+			    		   System.out.println("1-6 r commanduudaas songono uu!");
 			    		
 			    	  }
 			    	  System.out.print("\nDahin comand oruulna uu? :");
